@@ -1,0 +1,44 @@
+{
+  "name": "Reventic/Laraventic",
+  "type": "library",
+  "description": "Reventic Laravel integration",
+  "keywords": [
+    "Reventic",
+    "Laraventic"
+  ],
+  "homepage": "https://github.com/Reventic/Laraventic",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Propellio",
+      "email": "info@propell.io",
+      "homepage": "http://propell.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.1",
+    "php": "~5.6|~7.0",
+    "reventic/reventic-php": "dev-master"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Reventic\\Laraventic\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Reventic\\Laraventic\\": "tests"
+    }
+  },
+  "scripts": {},
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
