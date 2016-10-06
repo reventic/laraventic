@@ -18,7 +18,7 @@
   ],
   "require": {
     "illuminate/support": "~5.1",
-    "reventic/reventic-php": "dev-master"
+    "reventic/reventic-php": "0.0.1"
   },
   "require-dev": {},
   "autoload": {
