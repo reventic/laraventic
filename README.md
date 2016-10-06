@@ -9,11 +9,11 @@ composer require reventic/laraventic
 Add to config/app.php, to providers array:
 
 ```
-composer require reventic/laraventic
+Reventic\Laraventic\Providers\Laraventic::class,
 ```
 
 and to aliases array:
 
 ```
-composer require reventic/laraventic
+'Laraventic' => Reventic\Laraventic\Facades\Laraventic::class,
 ```
