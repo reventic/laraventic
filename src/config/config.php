@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'apiKey' => ''
+    'apiKey' => '',
+    'demo' => false
 ];

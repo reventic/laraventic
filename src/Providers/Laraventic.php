@@ -28,7 +28,7 @@ class Laraventic extends ServiceProvider
     {
         if ($apiKey = $this->app->config->get('reventic.apiKey')) {
             $this->app->bind('laraventic', function () use ($apiKey) {
-                return new Tracker($apiKey);
+                return new Tracker($apiKey, $this->app->config->get('reventic.demo'));
             });
         }
     }
